@@ -1,0 +1,15 @@
+
+src/data/
+
+.venv/
+ecommerce-ai-platform/
+
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.env
+
+*.log
+*.tmp

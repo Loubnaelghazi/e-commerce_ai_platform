@@ -1,0 +1,156 @@
+[
+  {
+    "timestamp": "2025-08-11T13:53:50.280522",
+    "step": "data_collection_customers",
+    "status": "success",
+    "message": "Collected 1000 customer records",
+    "execution_time": "2025-08-11T13:53:50.280522"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:51.035541",
+    "step": "data_collection_transactions",
+    "status": "success",
+    "message": "Collected 5000 transaction records",
+    "execution_time": "2025-08-11T13:53:51.035541"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:51.044787",
+    "step": "data_cleaning_customers",
+    "status": "success",
+    "message": "Data cleaned. Removed 0 invalid records",
+    "execution_time": "2025-08-11T13:53:51.044787"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:51.064417",
+    "step": "data_cleaning_transactions",
+    "status": "success",
+    "message": "Data cleaned. Removed 0 invalid records",
+    "execution_time": "2025-08-11T13:53:51.064417"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:51.067445",
+    "step": "feature_engineering_customers",
+    "status": "error",
+    "message": "Error creating customer features: received 1011 (internal error); then sent 1011 (internal error)",
+    "execution_time": "2025-08-11T13:53:51.067445"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.510830",
+    "step": "feature_engineering_rfm",
+    "status": "success",
+    "message": "Created RFM features for 993 customers",
+    "execution_time": "2025-08-11T13:53:52.510830"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.532831",
+    "step": "feature_engineering_behavioral",
+    "status": "success",
+    "message": "Created behavioral features for 1000 customers",
+    "execution_time": "2025-08-11T13:53:52.532831"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.533849",
+    "step": "ml_dataset_preparation",
+    "status": "error",
+    "message": "Error preparing ML dataset: 'customer_features'",
+    "execution_time": "2025-08-11T13:53:52.533849"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.534832",
+    "step": "model_training",
+    "status": "error",
+    "message": "Error training models: received 1011 (internal error); then sent 1011 (internal error)",
+    "execution_time": "2025-08-11T13:53:52.534832"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.535832",
+    "step": "hyperparameter_tuning",
+    "status": "error",
+    "message": "Model random_forest not found. Train models first.",
+    "execution_time": "2025-08-11T13:53:52.535832"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.535832",
+    "step": "best_model_selection",
+    "status": "error",
+    "message": "No models trained yet",
+    "execution_time": "2025-08-11T13:53:52.535832"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.535832",
+    "step": "model_saving",
+    "status": "error",
+    "message": "No model specified and no best model selected",
+    "execution_time": "2025-08-11T13:53:52.535832"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.536833",
+    "step": "model_loading",
+    "status": "error",
+    "message": "Error loading model: received 1011 (internal error); then sent 1011 (internal error)",
+    "execution_time": "2025-08-11T13:53:52.536833"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.537833",
+    "step": "single_prediction",
+    "status": "error",
+    "message": "No models loaded",
+    "execution_time": "2025-08-11T13:53:52.537833"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.538831",
+    "step": "batch_predictions",
+    "status": "error",
+    "message": "No models loaded",
+    "execution_time": "2025-08-11T13:53:52.538831"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.539833",
+    "step": "realtime_predictions",
+    "status": "error",
+    "message": "No models loaded",
+    "execution_time": "2025-08-11T13:53:52.539833"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.539833",
+    "step": "model_drift_monitoring",
+    "status": "error",
+    "message": "No models loaded",
+    "execution_time": "2025-08-11T13:53:52.539833"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.540833",
+    "step": "customer_insights",
+    "status": "error",
+    "message": "Error generating customer insights: received 1011 (internal error); then sent 1011 (internal error)",
+    "execution_time": "2025-08-11T13:53:52.540833"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:52.541832",
+    "step": "performance_report",
+    "status": "error",
+    "message": "Error creating performance report: received 1011 (internal error); then sent 1011 (internal error)",
+    "execution_time": "2025-08-11T13:53:52.541832"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:53.439943",
+    "step": "predictions_dashboard",
+    "status": "success",
+    "message": "Predictions dashboard generated successfully",
+    "execution_time": "2025-08-11T13:53:53.439943"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:53.439943",
+    "step": "business_alerts",
+    "status": "success",
+    "message": "Created 0 business alerts",
+    "execution_time": "2025-08-11T13:53:53.439943"
+  },
+  {
+    "timestamp": "2025-08-11T13:53:53.440939",
+    "step": "roi_analysis",
+    "status": "success",
+    "message": "ROI analysis completed successfully",
+    "execution_time": "2025-08-11T13:53:53.440939"
+  }
+]

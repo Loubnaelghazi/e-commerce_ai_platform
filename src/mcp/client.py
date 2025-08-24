@@ -5,7 +5,7 @@ import json
 import asyncio
 import time
 
-from mcp.protocol import MCPMessage, MessageType
+from src.mcp.protocol import MCPMessage, MessageType
 
 
 '''Permet à un agent de se connecter à un autre agent via WebSocket et d'appeler des "outils" (fonctions) à distance sur cet agent.'''
